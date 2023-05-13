@@ -1,0 +1,192 @@
+body{
+    background:white;
+    
+    }
+
+
+     ul{
+        display: table;
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        text-align: center;
+        }
+        ul li{
+        display: table-cell;
+        min-width: 50px;
+        }
+        ul li a{
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #555;
+        font-weight: bold;
+        }
+        ul li.current{
+        background-color: #DEEBF7;
+        }
+        ul li.current a{
+        color: #555;
+        }
+        ul li:hover{
+        background-color: #FFF2CC;
+        }
+
+.mainvisual {
+            position: relative;
+            }
+          
+.mainvisual p {
+            position: absolute;
+            color:white;
+            font-weight: bold; /*太字に*/
+            font-size: 2em;/*サイズ2倍*/
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            margin:0;
+            padding:0;
+            /*文字の装飾は省略*/
+            }
+          
+.mainvisual img {
+            width: 100%;
+            }
+            
+.about h2 { text-align: center;
+color:orange }
+       p {text-align: center}
+
+.pic4{display: flex;
+    justify-content: center;
+}
+
+.course h2 { text-align: center;
+    color:orange }
+       p {text-align: center}
+
+
+
+       .pictext01 {
+        display: flex; /*横並び*/
+      }
+      .pictext01 .image {
+        width: 640px; /*画像サイズ指定*/
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+      }
+      .pictext01 .right {
+        margin: 0 0 0 20px;
+        padding: 120px;
+      }
+      .pictext01 .title {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .pictext01 .text {
+        margin: 10px 0 0;
+        padding: 0;
+      }
+
+
+      .pictext02 {
+        display: flex; /*横並び*/
+      }
+      .pictext02 .image {
+        width: 640px; /*画像サイズ指定*/
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+      }
+      .pictext02 .left {
+        margin: 0 0 0 20px;
+        padding: 120px;
+      }
+      .pictext02 .title {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .pictext02 .text {
+        margin: 10px 0 0;
+        padding: 0;
+      }
+      
+      .pictext03 {
+        display: flex; /*横並び*/
+      }
+      .pictext03 .image {
+        width: 640px; /*画像サイズ指定*/
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+      }
+      .pictext03 .right {
+        margin: 0 0 0 20px;
+        padding: 120px;
+      }
+      .pictext03 .title {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .pictext03 .text {
+        margin: 10px 0 0;
+        padding: 0;
+      }
+ 
+.news h2 { text-align: center;
+color:orange}
+
+
+
+.more{text-align: center;
+    margin: 60px;
+}
+.more button{ 
+    width: 200px;
+    height: 60px;
+        background: yellow;
+        cursor: pointer;
+    }
+
+    
+
+.access h2{ text-align: center;
+    color:orange}
+
+.contact h2{ text-align: center;
+    color:orange}
+         p{text-align: center}
+
+.table {margin:auto;
+    margin: 50px;
+    border-collapse:  collapse;
+}
+
+th,td {
+    border: solid 1px;  /* 枠線指定 */
+    padding: 10px;      /* 余白指定 */
+}
+
+
+.send {text-align: center;
+        margin: 60px;
+    }
+.send button{ 
+        width: 200px;
+        height: 60px;
+            background: yellow;
+            cursor: pointer;
+        }
